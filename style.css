@@ -5,16 +5,26 @@
 }
 
 body {
+  margin: 0;
+  background: #091921;
+}
+
+.heyy {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: #091921;
+  min-height: 91vh;
+}
+
+@font-face {
+  src: url(font/sans.ttf);
+  font-family: "sans";
 }
 
 .clock {
   width: 350px;
   height: 350px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,5 +107,14 @@ body {
   width: 2px;
   height: 160px;
   z-index: 12;
-  background: #ffffff;
+  background: lightgreen;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  font-family: "sans";
+  padding: 20px;
 }
