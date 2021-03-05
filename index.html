@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.js">
     <link rel="icon" href="img/icon.png">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+
+        $(window).on('load', function () {
+            $('.preloader').addClass('complete')
+        })
+
+        $(window).on('keydown', function (event) {
+            if (event.keyCode == 123) {
+                // alert('Disabled!!');
+                return false;
+            }
+            else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+                // alert('Disabled!!')
+                return false;
+            }
+            else if (event.ctrlKey && event.keyCode == 73) {
+                // alert('Disabled!!')
+                return false;
+            }
+        });
+        $(document).on("contextmenu", function (e) {
+            alert('Right Click Disabled!!')
+            e.preventDefault();
+        });
+
+    </script>
     <title>Clock UI Dark</title>
+
 </head>
 
 <body>
