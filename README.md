@@ -1,9 +1,5 @@
-![Clock](https://user-images.githubusercontent.com/73248007/130425804-41a1c6ac-d5c9-440c-bc33-67e8ce091331.png)
 # Clock
-
-All the code here is meant for self reference and to be referred by others only to learn the implementation. Do not use this repository to copy the code directly, but instead to compare it with yours.
-
-If you have a better code for any of the code posted here, do PR, I'll add it right in.
+![Clock](https://user-images.githubusercontent.com/73248007/135141477-b3f35aca-073c-4f9c-accf-ad6fde66f933.png)
 
 ## Connect with me
 
